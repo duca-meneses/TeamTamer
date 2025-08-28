@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9432B8FF-B00C-46A4-9132-6009D3CC2259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamTamer.Api", "src\TeamTamer.Api\TeamTamer.Api.csproj", "{B2D4AC87-250A-4F26-940C-16242302014D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamTamer.Client", "src\TeamTamer.Client\TeamTamer.Client.csproj", "{DC207FF6-903F-4E5C-AC26-EF05095A21E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamTamer.Base", "src\TeamTamer.Base\TeamTamer.Base.csproj", "{C705275A-F3EF-4FBB-8DF1-7F9614246B12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamTamer.ClientLib", "src\TeamTamer.ClientLib\TeamTamer.ClientLib.csproj", "{A7C809CE-0EED-4E3D-9011-CB3BE5CF8009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamTamer.ApiLib", "src\TeamTamer.ApiLib\TeamTamer.ApiLib.csproj", "{7AC90F4A-6954-4E11-BDD6-256CF4CD6A27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2D4AC87-250A-4F26-940C-16242302014D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2D4AC87-250A-4F26-940C-16242302014D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2D4AC87-250A-4F26-940C-16242302014D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2D4AC87-250A-4F26-940C-16242302014D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC207FF6-903F-4E5C-AC26-EF05095A21E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC207FF6-903F-4E5C-AC26-EF05095A21E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC207FF6-903F-4E5C-AC26-EF05095A21E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC207FF6-903F-4E5C-AC26-EF05095A21E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C705275A-F3EF-4FBB-8DF1-7F9614246B12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C705275A-F3EF-4FBB-8DF1-7F9614246B12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C705275A-F3EF-4FBB-8DF1-7F9614246B12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C705275A-F3EF-4FBB-8DF1-7F9614246B12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7C809CE-0EED-4E3D-9011-CB3BE5CF8009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7C809CE-0EED-4E3D-9011-CB3BE5CF8009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7C809CE-0EED-4E3D-9011-CB3BE5CF8009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7C809CE-0EED-4E3D-9011-CB3BE5CF8009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC90F4A-6954-4E11-BDD6-256CF4CD6A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC90F4A-6954-4E11-BDD6-256CF4CD6A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC90F4A-6954-4E11-BDD6-256CF4CD6A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC90F4A-6954-4E11-BDD6-256CF4CD6A27}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2D4AC87-250A-4F26-940C-16242302014D} = {9432B8FF-B00C-46A4-9132-6009D3CC2259}
+		{DC207FF6-903F-4E5C-AC26-EF05095A21E8} = {9432B8FF-B00C-46A4-9132-6009D3CC2259}
+		{C705275A-F3EF-4FBB-8DF1-7F9614246B12} = {9432B8FF-B00C-46A4-9132-6009D3CC2259}
+		{A7C809CE-0EED-4E3D-9011-CB3BE5CF8009} = {9432B8FF-B00C-46A4-9132-6009D3CC2259}
+		{7AC90F4A-6954-4E11-BDD6-256CF4CD6A27} = {9432B8FF-B00C-46A4-9132-6009D3CC2259}
+	EndGlobalSection
+EndGlobal

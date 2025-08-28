@@ -1,0 +1,6 @@
+@TeamTamer.Api_HostAddress = http://localhost:5191
+
+GET {{TeamTamer.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
